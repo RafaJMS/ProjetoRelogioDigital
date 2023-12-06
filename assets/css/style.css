@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0;
+    color:aliceblue;
+    font-family: 'Yuji Syuku', serif;
+}
+body{
+    height: 98.3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+    background: linear-gradient(135deg, rgba(18,21,193,1) 1%, rgba(207,18,228,1) 78%);
+}
+
+.box-maior{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+}
+
+.texto-relogio{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+hr{
+    padding: 0;
+    width: 100%;
+}
+
+#tempo{
+    padding-top: 0;
+    font-size: 80px;
+}
+#tx-minutos{
+    padding: 0;
+    padding-left: 57px;
+    padding-right: 40px
+}
+#tx-horas{
+    padding: 0;
+    padding-left: 15px;
+}
+#tx-segundos{
+    padding: 0;
+}
